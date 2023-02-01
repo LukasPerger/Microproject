@@ -13,6 +13,11 @@ body > div{
     background-color: rgb(255, 255, 255, 0.6);
 }
 
+body > div > *{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 h1 > img{
     height:5em;
 }
@@ -89,7 +94,6 @@ div.new{
 
 footer{
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255, 0.6), rgb(117, 117, 117), rgb(62, 62, 62), black);
-    margin:0;
     padding: 3em;
 }
 
