@@ -112,3 +112,37 @@ div > img{
     box-shadow: 10px 10px 5px rgb(66, 66, 66);
     margin-bottom: 2em;
 }
+
+button{
+    position: fixed;
+    right:0;
+    margin-right:50px;
+    background-color:rgb(215, 177, 80);
+    padding: 10px 20px 10px 20px;
+}
+
+button:hover{
+    animation: buttonHover;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buttonHover{
+    0% {transform:rotate(10deg);}
+    50% {transform:rotate(-20deg);}
+    100% {transform:rotate(10deg);}
+}
+
+button:hover::after{
+    animation: afterButtonHover;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+}
+
+@keyframes afterButtonHover{
+    0% {transform:rotate(10deg);}
+    50% {transform:rotate(-20deg);}
+    100% {transform:rotate(10deg);}
+}
