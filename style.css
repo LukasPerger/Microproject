@@ -26,7 +26,7 @@ div > h1{
     font-size:larger;
 }
 
-body > h1:first-child, body > div > h1:first-child{
+body > h1:first-child, body > div > h1:first-child, body > div > h1:nth-child(2){
     font-size:xx-large;
     color:black;
     animation-name: getBigger;
